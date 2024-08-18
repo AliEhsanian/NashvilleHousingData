@@ -25,5 +25,5 @@ This project involves cleaning and analyzing a NashvilleHousing dataset using SQ
 - The dataset used in this project is sourced from [Kaggle](https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data).
 
 ## Author
-- **Your Name**
+- **Ali Ehsanian**
   - [GitHub](https://github.com/AliEhsanian).
