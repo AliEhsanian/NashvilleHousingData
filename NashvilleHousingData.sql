@@ -98,7 +98,7 @@ UPDATE NashvilleHousing
 SET SaleDate = DATE(SaleDate);
 
 /*
-The above query may not work, either fails or doesn't change the table (depends on the DBMS)
+The above query may not work, either fails or doesn't change the table (depends on the DBMS).
 The reason is that some rows contain data that cannot be converted to the DATE type! 
 We might wonder why the SELECT command worked without raising an error. The reason 
 is that SQL systems are generally soft in the SELECT command. The SELECT command attempts 
@@ -381,7 +381,7 @@ FROM NashvilleHousing
 
 SELECT COUNT(*) -- SELECT * shows the duplicate rows
 FROM DupRows
-WHERE rn > 1
+WHERE rn > 1;
 
 -- We can find the duplicateb rows using this query too. But this is not useful for more actions.
 /*
@@ -404,7 +404,7 @@ ORDER BY DuplicateCount DESC;
 */
 
 -- We can delete the duplicate rows from the table with below query but
--- it's better not to do this.
+-- it's recommended not to do this.
 /*
 WITH DupRows AS (
   Select 
