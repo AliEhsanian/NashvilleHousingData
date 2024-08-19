@@ -1,4 +1,4 @@
-# NashvilleHousing Dataser Cleaning and Analysis with SQL
+# NashvilleHousing Dataset Cleaning and Analysis with SQL
 
 ## Overview
 This project involves cleaning and analyzing a NashvilleHousing dataset using SQL. The SQL script provided performs various tasks such as data cleaning, transformations, and analysis on a real dataset.
